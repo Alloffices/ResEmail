@@ -61,7 +61,7 @@ p {
 }
 a {
     color: #ee6a56;
-    text-decoration: underline;
+    text-decoration: none;
 }
 .h1 {
     font-size: 21px;
@@ -198,7 +198,7 @@ a {
 }
 
 /*Media Queries*/
-@media screen and (max-width: 400px) {
+/*@media screen and (max-width: 400px) {
 .two-column .column,
     .three-column .column {
         max-width: 100% !important;
@@ -218,27 +218,24 @@ a {
     .two-column .column {
         max-width: 50% !important;
     }
-}
+}*/
 
-/* Hamberger Navigation Header */
-img
-{
+/* ‘Hamburger’ Collapsible Navigation Header */
+
+img {
 /* Allow smoother rendering of resized image in Internet Explorer */
 -ms-interpolation-mode: bicubic;
 }
 
 /* force styles of client inserted tel anchors */
-a[href^=tel]
-{
+a[href^=tel] {
 color: #295AA6;
 font-weight: bold;
 }
 
-@media screen
-{
+@media screen {
 
-@font-face
-{
+@font-face {
     font-family: 'CabinCondensed-reg';
     font-style: normal;
     font-weight: 400;
@@ -251,8 +248,7 @@ font-weight: bold;
     ;
 }
 
-@font-face
-{
+@font-face {
     font-family: 'CabinCondensed-bold';
     font-style: normal;
     font-weight: 700;
@@ -265,8 +261,7 @@ font-weight: bold;
     ;
 }
 
-@font-face
-{
+@font-face {
     font-family: 'OpenSansCondensed-bold';
     font-style: normal;
     font-weight: 700;
@@ -281,8 +276,7 @@ font-weight: bold;
 
 }
 
-@media all and ( max-width: 600px )
-{
+@media all and ( max-width: 600px ) {
 
 *[id]#wrapper + table,
 *[class].container,
@@ -299,8 +293,8 @@ font-weight: bold;
 
 *[id]#logo
 {
-    height: 50px;
-    width: 182px;
+    height: 70px;
+    width: 70px;
 }
 
 *[id]#mobile-label
