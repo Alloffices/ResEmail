@@ -7,72 +7,466 @@
 	<!--<![endif]-->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title></title>
-	<link rel="stylesheet" type="text/css" href="styles.css" />
+	<style type="text/css">
+
+</style>
 	<!--[if (gte mso 9)|(IE)]>
 	<style type="text/css">
-	    table {border-collapse: collapse;}
+	    table {border-collapse: collapse !important;}
 	</style>
 	<![endif]-->
+	<style>
+
+body {
+    Margin: 0;
+    padding: 0;
+    min-width: 100%;
+    background-color: #292929;
+}
+table {
+    border-spacing: 0;
+    font-family: sans-serif;
+    color: #ccc;
+}
+td {
+    padding: 0;
+}
+img {
+    border: 0;
+}
+.wrapper {
+    width: 100%;
+    table-layout: fixed;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+.webkit {
+    max-width: 600px;
+}
+
+.outer {
+    Margin: 0 auto;
+    width: 100%;
+    max-width: 600px;
+}
+
+
+
+.full-width-image img {
+
+    width: 100%;
+    
+
+    max-width: 600px;
+    
+
+    height: auto;
+    
+}
+
+
+
+.inner {
+    padding: 10px;
+}
+p {
+    Margin: 0;
+}
+a {
+    color: #eee;
+    text-decoration: none;
+}
+.h1 {
+    font-size: 21px;
+    font-weight: bold;
+    Margin-bottom: 18px;
+}
+.h2 {
+    font-size: 18px;
+    font-weight: bold;
+    Margin-bottom: 12px;
+}
+
+
+.one-column .contents {
+    text-align: left;
+}
+.one-column p {
+    font-size: 14px;
+    Margin-bottom: 10px;
+}
+
+
+.two-column {
+    text-align: center;
+    font-size: 0;
+}
+.two-column .column {
+    width: 100%;
+    max-width: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.contents {
+    width: 100%;
+}
+
+.two-column .contents {
+    font-size: 14px;
+    text-align: left;
+}
+.two-column img {
+    width: 100%;
+    max-width: 280px;
+    height: auto;
+}
+.two-column .text {
+    padding-top: 10px;
+}
+
+
+.three-column {
+    text-align: center;
+    font-size: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.three-column .column {
+    width: 100%;
+    max-width: 200px;
+    display: inline-block;
+    vertical-align: top;
+}
+.three-column .contents {
+    font-size: 14px;
+    text-align: center;
+}
+.three-column img {
+    width: 100%;
+    max-width: 180px;
+    height: auto;
+}
+.three-column .text {
+    padding-top: 10px;
+}
+
+
+.left-sidebar {
+    text-align: center;
+    font-size: 0;
+}
+.left-sidebar .column {
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.left-sidebar .left {
+    max-width: 100px;
+}
+.left-sidebar .right {
+    max-width: 500px;
+}
+.left-sidebar .img {
+    width: 100%;
+    max-width: 80px;
+    height: auto;
+}
+
+.left-sidebar .contents {
+    font-size: 14px;
+    text-align: center;
+}
+.left-sidebar a {
+    color: #85ab70;
+}
+
+
+.right-sidebar {
+    text-align: center;
+    font-size: 0;
+}
+.right-sidebar .column {
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.right-sidebar .left {
+    max-width: 100px;
+}
+.right-sidebar .right {
+    max-width: 500px;
+}
+.right-sidebar .img {
+    width: 100%;
+    max-width: 80px;
+    height: auto;
+}
+.right-sidebar .contents {
+    font-size: 14px;
+    text-align: center;
+}
+.right-sidebar a {
+    color: #70bbd9;
+}
+
+
+@media screen and (max-width: 400px) {
+.two-column .column,
+    .three-column .column {
+        max-width: 100% !important;
+    }
+    .two-column img {
+        max-width: 100% !important;
+    }
+    .three-column img {
+        max-width: 50% !important;
+    }
+}
+
+@media screen and (min-width: 401px) and (max-width: 620px) {
+.three-column .column {
+        max-width: 33% !important;
+    }
+    .two-column .column {
+        max-width: 50% !important;
+    }
+}
+
+
+
+img {
+
+-ms-interpolation-mode: bicubic;
+}
+
+
+a[href^=tel] {
+color: #295AA6;
+font-weight: bold;
+}
+
+@media screen {
+
+@font-face {
+    font-family: 'CabinCondensed-reg';
+    font-style: normal;
+    font-weight: 400;
+
+    src: local( 'Cabin Condensed' ),
+         local( 'CabinCondensed'  ),
+
+         url( 'https://fonts.gstatic.com/s/cabincondensed/v7/B0txb0blf2N29WdYPJjMShZ1gqmQBTb4Nwa_fF0DajA.woff' ) format( 'woff'     ),
+         url( 'https://fonts.gstatic.com/s/cabincondensed/v7/B0txb0blf2N29WdYPJjMSlpNuLN9P2dR6eOCPYblbcM.ttf'  ) format( 'truetype' )
+    ;
+}
+
+@font-face {
+    font-family: 'CabinCondensed-bold';
+    font-style: normal;
+    font-weight: 700;
+
+    src: local( 'Cabin Condensed Bold' ),
+         local( 'CabinCondensed-Bold'  ),
+
+         url( 'https://fonts.gstatic.com/s/cabincondensed/v7/Ez4zJbsGr2BgXcNUWBVgEFxo_3fQgeDvKMambfIp_uA.woff' ) format( 'woff'     ),
+         url( 'https://fonts.gstatic.com/s/cabincondensed/v7/Ez4zJbsGr2BgXcNUWBVgEMYsb_UBatsJhtlz83pruSg.ttf'  ) format( 'truetype' )
+    ;
+}
+
+@font-face {
+    font-family: 'OpenSansCondensed-bold';
+    font-style: normal;
+    font-weight: 700;
+
+    src: local( 'Open Sans Condensed Bold' ),
+         local( 'OpenSans-CondensedBold'   ),
+
+         url( 'https://fonts.gstatic.com/s/opensanscondensed/v10/gk5FxslNkTTHtojXrkp-xONSK5BxN3NFS4EJkViHIqo.woff' ) format( 'woff'     ),
+         url( 'https://fonts.gstatic.com/s/opensanscondensed/v10/gk5FxslNkTTHtojXrkp-xJhsE6jcpsD2oq89kgohWx0.ttf'  ) format( 'truetype' )
+    ;
+}
+
+}
+
+@media all and ( max-width: 600px ) {
+
+*[id]#wrapper + table,
+*[class].container,
+*[class].menu
+{
+    min-width: 0 !important;
+
+    -moz-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+
+    width: 100% !important;
+}
+
+*[id]#logo
+{
+    height: 26px;
+    width: 84px;
+    Margin-left:10px;
+}
+
+*[id]#mobile-label
+{
+    background-color: #F3F3F3;
+
+    cursor: pointer;
+    display: block !important;
+    float: right;
+
+    padding: 25px;
+
+    -webkit-tap-highlight-color: transparent;
+
+    width: 26px;
+}
+
+*[id]#mobile-label > b
+{
+    background-color: #575452;
+
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+
+    display: block;
+    height: 4px;
+}
+
+*[id]#mobile-label > b + b
+{
+    margin-top: 4px;
+}
+
+*[class].menu td
+{
+    padding: 0 !important;
+}
+
+*[id]#menu-wrapper
+{
+    background-color: #292929;
+
+    max-height: 0;
+
+    overflow: hidden;
+
+    -moz-transition: max-height .25s linear;
+    -ms-transition: max-height .25s linear;
+    -o-transition: max-height .25s linear;
+    -webkit-transition: max-height .25s linear;
+    transition: max-height .25s linear;
+}
+
+*[id]#mobile-checkbox:checked + table #menu-wrapper
+{
+    max-height: 130px;
+}
+
+*[class].menu + .menu
+{
+
+}
+
+*[class].menu-item
+{
+    color: #FFFFFF !important;
+    display: block;
+    border-bottom: 1px solid #666;
+    padding: 12px;
+    text-align: center;
+}
+
+*[id]#hero
+{
+    font-size: 14px !important;
+
+    height: auto !important;
+    min-height: 50px !important;
+
+    width: 100% !important;
+}
+
+td[class].content
+{
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+
+
+td[class].social-media img
+{
+    height: 40px;
+    width: 40px;
+}
+
+*[class].mobile-hide
+{
+    display: none;
+}
+
+}
+	</style>
 </head>
-<body>
+<body style="Margin:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;min-width:100%;background-color:#fff;" >
 
   <!-- PRE-HEADER -->
-  <div style=" display: none; font-size: 0; height: 0; opacity: 0; visibility: hidden; width: 0;"><font color="#FFFFFF" size="1" style=" color: transparent; font-size: 0;">Start the new year right!</font></div>
+  <div style="display:none;font-size:0;height:0;opacity:0;visibility:hidden;width:0;" ><font color="#FFFFFF" size="1" style="color:transparent;font-size:0;" >Start the new year right!</font></div>
   <!-- END PRE-HEADER -->
 
-  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border-spacing: 0; table-layout: fixed;" width="100%">
+  <table border="0" cellpadding="0" cellspacing="0"  width="100%" style="border-collapse:collapse;border-spacing:0;table-layout:fixed;font-family:sans-serif;color:#ccc;" >
     <tr>
-      <td>
-        <!--[if mso]><p style="display: none;"><![endif]-->
-          <input id="mobile-checkbox" style="display: none!important; max-height: 0; visibility: hidden;" type="checkbox">
+      <td style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" >
+        <!--[if mso]><p style="display:none;Margin:0;" ><![endif]-->
+          <input id="mobile-checkbox"  type="checkbox" style="display:none!important;max-height:0;visibility:hidden;" >
         <!--[if mso]></p><![endif]-->
-        <table align="center" border="0" cellpadding="0" cellspacing="0" class="container" style="border-collapse: collapse; border-spacing: 0; margin: auto; min-width: 600px;" width="600">
+        <table align="center" border="0" cellpadding="0" cellspacing="0" class="container"  width="600" style="border-collapse:collapse;border-spacing:0;margin-top:auto;margin-bottom:auto;margin-right:auto;margin-left:auto;min-width:600px;font-family:sans-serif;color:#ccc;" >
           <tr>
-            <td>
-              <label for="mobile-checkbox" id="mobile-label" style="display: none;">
-                  <b></b>
-                  <b></b>
-                  <b></b>
-              </label>
-              <table align="left" border="0" cellpadding="10" cellspacing="0" style="border-collapse: collapse; border-spacing: 0;">
+            <td style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" >
+              <table align="left" border="0" cellpadding="10" cellspacing="0" style="border-collapse:collapse;border-spacing:0;font-family:sans-serif;color:#ccc;" >
         <!-- Nav Logo -->
 	              <tr>
-	                <td>
-	                  <a href="http://www.pbccu.coop/"><img alt="PBC Credit Union" border="0" height="60" id="logo" src="http://semantic-ui.com/images/logo.png" style="color: #575452; display: block; font-family: 'CabinCondensed-bold', Arial, sans-serif; font-size: 18px;" width="60"></a>
+	                <td style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" >
+	                  <a href="https://ui8.net/" style="color:#eee;text-decoration:none;" ><img alt="Ui8" border="0" height="26" id="logo" src="https://ci3.googleusercontent.com/proxy/-smZuaCrVLZY40gcJmzr-DvWQ_ocUmpiRTfIaV7QL1RUsCBvtjO7nvn3XRWfwj3aW7tvYy7T2Xep2mrmdnLp3YxTK1U69t9CvCyGhiAmFxaiKFvX=s0-d-e1-ft#http://media.mail.roku.com/img/global/20150701_top_logo_v2.jpg"  width="84" style="color:#575452;display:block;font-family:'CabinCondensed-bold', Arial, sans-serif;font-size:18px;border-width:0;-ms-interpolation-mode:bicubic;Margin-top:13px;Margin-left:10px;Margin-bottom:13px;" ></a>
 	                </td>
 	              </tr>
               </table><!--[if mso]>
-              </td><td><![endif]-->
-              <table align="right" border="0" cellpadding="0" cellspacing="0" class="menu">
+              </td><td style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" ><![endif]-->
+              <table align="right" border="0" cellpadding="0" cellspacing="0" class="menu" style="border-spacing:0;font-family:sans-serif;color:#ccc;" >
                 <tr>
-                  <td style="padding-top: 21px;padding-bottom: 21px;">
+                  <td style="padding-top:21px;padding-bottom:21px;padding-right:0;padding-left:0;" >
                     <div id="menu-wrapper"><!--[if mso]>
-                    <table border="0" cellpadding="0" cellspacing="0">
+                    <table border="0" cellpadding="0" cellspacing="0" style="border-spacing:0;font-family:sans-serif;color:#ccc;" >
                     <tr>
-                    <td><![endif]-->
-                    <table align="left" border="0" cellpadding="10" cellspacing="0" class="menu" style="border-collapse: collapse; border-spacing: 0;">
+                    <td style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" ><![endif]-->
+                    <table align="left" border="0" cellpadding="10" cellspacing="0" class="menu" style="border-collapse:collapse;border-spacing:0;font-family:sans-serif;color:#ccc;" >
             	<!-- 1/3 Menue options -->
                       <tr>
-                        <td nowrap style="font-family: 'CabinCondensed-bold', Arial, sans-serif; font-size: 18px; line-height: 1; text-transform: uppercase;">
-                          <a href="http://www.pbccu.coop/cu-online/" class="menu-item" style="color: #575452; line-height: 1; text-decoration: none;">CU Online</a>
+                        <td nowrap style="font-family:'CabinCondensed-bold', Arial, sans-serif;font-size:12px;line-height:1;text-transform:uppercase;padding-right:10px;padding-top:0;padding-bottom:0;padding-left:0;" >
+                          <a href="https://ui8.net/categories/all" class="menu-item" style="color:#000;line-height:1;text-decoration:none;" >New channels</a>
                         </td>
                       </tr>
                     </table><!--[if mso]>
-                    </td><td><![endif]-->
-                    <table align="left" border="0" cellpadding="10" cellspacing="0" class="menu" style="border-collapse: collapse; border-spacing: 0;">
+                    </td><td style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" ><![endif]-->
+                    <table align="left" border="0" cellpadding="10" cellspacing="0" class="menu" style="border-collapse:collapse;border-spacing:0;font-family:sans-serif;color:#ccc;" >
             	<!-- 2/3 Menue options -->
                       <tr>
-                        <td nowrap style="font-family: 'CabinCondensed-bold', Arial, sans-serif; font-size: 18px; line-height: 1; text-transform: uppercase;">
-                          <a href="http://www.pbccu.coop/apply/" class="menu-item" style="color: #575452; line-height: 1; text-decoration: none;">Apply Online</a>
+                        <td nowrap style="font-family:'CabinCondensed-bold', Arial, sans-serif;font-size:12px;line-height:1;text-transform:uppercase;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" >
+                          <a href="https://ui8.net/products/ultimate-pass" class="menu-item" style="color:#000;line-height:1;text-decoration:none;padding-right:10px;" >Movies + TV</a>
                         </td>
                       </tr>
                     </table><!--[if mso]>
-                    </td><td><![endif]-->
-                    <table align="left" border="0" cellpadding="10" cellspacing="0" class="menu" style="border-collapse: collapse; border-spacing: 0;">
+                    </td><td style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" ><![endif]-->
+                    <table align="left" border="0" cellpadding="10" cellspacing="0" class="menu" style="border-collapse:collapse;border-spacing:0;font-family:sans-serif;color:#ccc;" >
             	<!-- 3/3 Menue options -->
                       <tr>
-                        <td nowrap style="font-family: 'CabinCondensed-bold', Arial, sans-serif; font-size: 18px; line-height: 1; text-transform: uppercase;">
-                          <a href="http://www.pbccu.coop/rates/" class="menu-item" style="color: #575452; line-height: 1; text-decoration: none;">Rates</a>
+                        <td nowrap style="font-family:'CabinCondensed-bold', Arial, sans-serif;font-size:12px;line-height:1;text-transform:uppercase;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" >
+                          <a href="https://ui8.net/jobs" class="menu-item" style="color:red;line-height:1;text-decoration:none;" >Shop now</a>
                         </td>
                       </tr>
 	                  </table><!--[if mso]>
@@ -89,131 +483,70 @@
       </td>
     </tr>
   </table>
-
-  <center class="wrapper">
-    <div class="webkit">
+  <center class="wrapper" style="width:100%;table-layout:fixed;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;" >
+    <div class="webkit" style="max-width:600px;" >
       <!--[if (gte mso 9)|(IE)]>
-			<table width="600" align="center">
+			<table width="600" align="center" style="border-spacing:0;font-family:sans-serif;color:#ccc;" >
 			<tr>
-			<td>
+			<td style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" >
 			<![endif]-->
-			<table class="outer" align="center">
+			<table class="outer" align="center" style="border-spacing:0;font-family:sans-serif;color:#ccc;Margin:0 auto;width:100%;max-width:600px;" >
 
 				<tr>
-			    <td class="full-width-image">
+			    <td class="full-width-image" style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" >
 			    	<!-- We've set the width 600 for Outlook, but will override it with a width of 100% in the CSS so that it will resize freely in other clients: -->
-            <img src="images/header.jpg" width="600" alt="#">
+
+            <a href="https://ui8.net/" style="color:#eee;text-decoration:none;" >
+            <img src="https://ci5.googleusercontent.com/proxy/fm3ZuwT7otxKQv68DnmtEtne2UjNTWUleYBN_z3BxlzRydqHX-vihjEgZruwjlaITRXfEUKJWMWhjoae8ZRfX9Bx25DVCuavUSov1Nh_2WD1BUnNKw-IlmpsEXKttE2wOKMv=s0-d-e1-ft#http://media.mail.roku.com/img/global/20151228_Showtime_hero_animation_v5.gif" width="600" alt="#" style="border-width:0;-ms-interpolation-mode:bicubic;width:100%;max-width:600px;height:auto;Margin-bottom:16px;" ></a>
 			    </td>
 			  </tr>
+            <tr>
+              <td class="text" style="padding-bottom:0;padding-right:0;padding-left:0;padding-top:10px;text-align:center;color:#66318f;font-size:23px;line-height:20px;Margin-bottom:16px;" >
+                Stream SHOWTIME® Today!
+              </td>
+            </tr>
+            <tr>
+              <td class="text" style="padding-bottom:0;padding-right:10px;padding-left:10px;padding-top:10px;text-align:left;color:#666;font-size:14px;line-height:20px;" >
+                As you ring in the new year, resolve to watch more award-winning original series, starting with Homeland, Ray Donovan, Shameless and more, all on SHOWTIME®. Plus, discover new favorites like Penny Dreadful, House of Lies, Dexter, and Weeds. Enjoy documentaries, hit movies, comedy specials, and sports, all with your 30 day FREE* trial of SHOWTIME®.
+              </td>
+            </tr>
+            <tr>
+              <td class="text" style="padding-bottom:0;padding-right:10px;padding-left:10px;padding-top:10px;text-align:left;color:#666;font-size:10px;line-height:15px;" >
+                * Free trial is available for new SHOWTIME users only. Cancel before free trial ends to avoid subscription fees. $10.99/month thereafter. See full terms below.
+              </td>
+            </tr>
+<!-- button -->
+            <td align="center" valign="top"><table border="0" cellspacing="0" cellpadding="0" style="margin-top:20px;margin-bottom:20px;">
+            <tbody><tr>
+            <td align="center" valign="middle"><img src="https://ci6.googleusercontent.com/proxy/mk89v0jrRtOtNjH8ltu_pFohT2npkCBdA0Q50Uf4-QMjnIbYDPp8cvgCOd95oZ8gI3dk1JmZOvK5Fa44yR_M_Olo1v7nrkp0nOx61S61bXJ6KsA7=s0-d-e1-ft#http://media.mail.roku.com/img/global/20150701_pw_cta_left.jpg" width="15" height="34" style="display:block" border="0" alt="" class="CToWUd"></td>
+            <td bgcolor="#672D91" align="center" valign="middle" style="background-color:#672d91;font-family:Arial,Helvetica,sans-serif;font-size:12px;line-height:15px;color:#ffffff;padding-left:5px;padding-right:5px;"><a href="https://info.roku.com/track?type=click&amp;enid=ZWFzPTEmbXNpZD0xJmF1aWQ9Mjc1MTIxNzUmbWFpbGluZ2lkPTEzMDAwOSZtZXNzYWdlaWQ9MjI2ODkmZGF0YWJhc2VpZD02MTAzJnNlcmlhbD0xNjc4NjQxMyZlbWFpbGlkPXNvbmlhdjQ4QGdtYWlsLmNvbSZ1c2VyaWQ9MV8zODk3ODg1JnRhcmdldGlkPSZtbj00OTgzOTQ4JmZsPSZtdmlkPSZleHRyYT0mJiY=&amp;&amp;&amp;27978548&amp;&amp;&amp;https://adfarm.mediaplex.com/ad/ck/27866-208339-60129-1556" style="color:#ffffff;text-decoration:none;" target="_blank">Start your free trial</a></td>
+            <td align="center" valign="middle"><img src="https://ci5.googleusercontent.com/proxy/xeDBD-LrrBFP7974vNF8qB2TXpFtlnpFY6ucOuff6odt55kcy1FsNp1rK59X7wjIieMasP8swjxEebQ00Ro-u5qOQzALBo0BSE0jU04n1cQ8jxNrdA=s0-d-e1-ft#http://media.mail.roku.com/img/global/20150701_pw_cta_right.jpg" width="15" height="34" style="display:block" border="0" alt="" class="CToWUd"></td>
+            </tr>
+            </tbody></table></td>
 
-				<tr>
-					<td class="one-column">
-		        <table width="100%">
-	            <tr>
-	              <td class="inner contents">
-	                <p class="h1">Lorem ipsum dolor sit amet</p>
-	                <p>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent laoreet malesuada cursus. Maecenas scelerisque congue eros eu posuere. Praesent in felis ut velit pretium lobortis rhoncus ut erat.</p>
-	              </td>
-	            </tr>
-		        </table>
-			    </td>
-				</tr>
+            <tr>
+              <td class="text" style="padding-bottom:0;padding-right:0;padding-left:0;padding-top:30px;text-align:center;color:#66318f;font-size:23px;line-height:20px;Margin-bottom:16px;background:#eee;" >
+                SHOWTIME® Hit Original Series
+              </td>
+            </tr>
+<!-- two column -->
 
-				<tr>
-					<td class="three-column">
-		        <!--[if (gte mso 9)|(IE)]>
-		        <table width="100%">
-		        <tr>
-		        <td width="200" valign="top">
-		        <![endif]-->
-		        <table class="column">
-					    <tr>
-				        <td class="inner">
-			            <table class="contents">
-		                <tr>
-	                    <td>
-                        <img src="images/three-column-01.jpg" width="180" alt="" />
-	                    </td>
-		                </tr>
-		                <tr>
-	                    <td class="text">
-                        Scelerisque congue eros eu posuere. Praesent in felis ut velit pretium lobortis rhoncus ut erat. 
-	                    </td>
-		                </tr>
-			            </table>
-				        </td>
-					    </tr>
-						</table>
-		        <!--[if (gte mso 9)|(IE)]>
-		        </td><td width="200" valign="top">
-		        <![endif]-->
-		        <table class="column">
-					    <tr>
-				        <td class="inner">
-			            <table class="contents">
-		                <tr>
-	                    <td>
-                        <img src="images/three-column-02.jpg" width="180" alt="" />
-	                    </td>
-		                </tr>
-		                <tr>
-	                    <td class="text">
-                        Scelerisque congue eros eu posuere. Praesent in felis ut velit pretium lobortis rhoncus ut erat. 
-	                    </td>
-		                </tr>
-			            </table>
-				        </td>
-					    </tr>
-						</table>
-		        <!--[if (gte mso 9)|(IE)]>
-		        </td><td width="200" valign="top">
-		        <![endif]-->
-		        <table class="column">
-					    <tr>
-				        <td class="inner">
-			            <table class="contents">
-		                <tr>
-	                    <td>
-                        <img src="images/three-column-03.jpg" width="180" alt="" />
-	                    </td>
-		                </tr>
-		                <tr>
-	                    <td class="text">
-                        Scelerisque congue eros eu posuere. Praesent in felis ut velit pretium lobortis rhoncus ut erat. 
-	                    </td>
-		                </tr>
-			            </table>
-				        </td>
-					    </tr>
-						</table>
-		        <!--[if (gte mso 9)|(IE)]>
-		        </td>
-		        </tr>
-		        </table>
-		        <![endif]-->
-			    </td>
-				</tr>
-
-				<tr>
-					<td class="two-column">
+    			<tr>
+					<td class="two-column" style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;text-align:center;font-size:0;background:#eee;" >
 <!-- 		        [if (gte mso 9)|(IE)]>
-		        <table width="100%">
+		        <table width="100%" style="border-spacing:0;font-family:sans-serif;color:#ccc;" >
 		        <tr>
-		        <td width="50%" valign="top">
+		        <td width="50%" valign="top" style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" >
 		        <![endif] -->
-		        <div class="column">
-							<table width="100%">
+		        <div class="column" style="width:100%;max-width:300px;display:inline-block;vertical-align:top;" >
+							<table width="100%" style="border-spacing:0;font-family:sans-serif;color:#ccc;" >
 				        <tr>
-			            <td class="inner">
-		                <table class="contents">
+			            <td class="inner" style="padding-top:10px;padding-bottom:10px;padding-right:10px;padding-left:10px;" >
+		                <table class="contents" style="border-spacing:0;font-family:sans-serif;color:#ccc;width:100%;font-size:14px;text-align:left;" >
 									    <tr>
-						            <td>
-			                    <img src="images/two-column-01.jpg" width="280" alt="" />
-						            </td>
-									    </tr>
-									    <tr>
-						            <td class="text">
-			                    Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+						            <td style="padding-top:10px;padding-bottom:10px;padding-right:10px;padding-left:10px;" >
+    						        <a href="https://info.roku.com/track?type=click&enid=ZWFzPTEmbXNpZD0xJmF1aWQ9Mjc1MTIxNzUmbWFpbGluZ2lkPTEzMDAwOSZtZXNzYWdlaWQ9MjI2ODkmZGF0YWJhc2VpZD02MTAzJnNlcmlhbD0xNjc4NjQxMyZlbWFpbGlkPXNvbmlhdjQ4QGdtYWlsLmNvbSZ1c2VyaWQ9MV8zODk3ODg1JnRhcmdldGlkPSZtbj00OTgzOTQ4JmZsPSZtdmlkPSZleHRyYT0mJiY=&&&29251079&&&https://adfarm.mediaplex.com/ad/ck/27866-208339-60129-1556" style="color:#eee;text-decoration:none;" >
+			                    <img src="https://ci6.googleusercontent.com/proxy/GkWlG1vNT5wo5NJEVgM4hWLIHJcHbKEr2Ofvj0XPHJAKPJ81bgaJaEqRQhAMYeMH8sDK7NurNgk0S8VL0D24_63mBxQDrrRoBg0B4c-joUzF5OJXEEuvGNEmNf8SaELdqQ=s0-d-e1-ft#http://media.mail.roku.com/img/global/20151228_Showtime_feat3_theaffair.jpg" width="250" alt="" style="border-width:0;-ms-interpolation-mode:bicubic;width:100%;max-width:250px;height:auto;" /></a>
 						            </td>
 									    </tr>
 										</table>
@@ -222,21 +555,17 @@
 					    </table>
 						</div>
 		        <!--[if (gte mso 9)|(IE)]>
-		        </td><td width="50%" valign="top">
+		        </td><td width="50%" valign="top" style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" >
 		        <![endif]-->
-		        <div class="column">
-							<table width="100%">
+		        <div class="column" style="width:100%;max-width:300px;display:inline-block;vertical-align:top;" >
+							<table width="100%" style="border-spacing:0;font-family:sans-serif;color:#ccc;" >
 				        <tr>
-			            <td class="inner">
-		                <table class="contents">
+			            <td class="inner" style="padding-top:10px;padding-bottom:10px;padding-right:10px;padding-left:10px;" >
+		                <table class="contents" style="border-spacing:0;font-family:sans-serif;color:#ccc;width:100%;font-size:14px;text-align:left;" >
 									    <tr>
-						            <td>
-			                    <img src="images/two-column-02.jpg" width="280" alt="" />
-						            </td>
-									    </tr>
-									    <tr>
-						            <td class="text">
-			                    Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
+						            <td style="padding-top:10px;padding-bottom:10px;padding-right:10px;padding-left:10px;" >
+				            	<a href="https://info.roku.com/track?type=click&enid=ZWFzPTEmbXNpZD0xJmF1aWQ9Mjc1MTIxNzUmbWFpbGluZ2lkPTEzMDAwOSZtZXNzYWdlaWQ9MjI2ODkmZGF0YWJhc2VpZD02MTAzJnNlcmlhbD0xNjc4NjQxMyZlbWFpbGlkPXNvbmlhdjQ4QGdtYWlsLmNvbSZ1c2VyaWQ9MV8zODk3ODg1JnRhcmdldGlkPSZtbj00OTgzOTQ4JmZsPSZtdmlkPSZleHRyYT0mJiY=&&&29251079&&&https://adfarm.mediaplex.com/ad/ck/27866-208339-60129-1556" style="color:#eee;text-decoration:none;" >
+			                    <img src="https://ci4.googleusercontent.com/proxy/ODRevG3ajcO5dvb36cw1UI5hXZ6CgyKwgcVFAgcMR2gGLJ6FcTts_dpyEZrP8p7rpq6TvSWNFDD4ocTe2GhyHdLFoTvl5ffPCJX9zesamKeJ5ltKghf14bFH2w=s0-d-e1-ft#http://media.mail.roku.com/img/global/20151228_Showtime_feat3_mos.jpg" width="250" alt="" style="border-width:0;-ms-interpolation-mode:bicubic;width:100%;max-width:250px;height:auto;" /></a>
 						            </td>
 									    </tr>
 										</table>
@@ -249,207 +578,277 @@
 		        </tr>
 		        </table>
 		        <![endif]-->
-			    </td>
-				</tr>
-
-				<tr>
-					<td class="three-column">
-		        <!--[if (gte mso 9)|(IE)]>
-		        <table width="100%">
-		        <tr>
-		        <td width="200" valign="top">
-		        <![endif]-->
-		        <table class="column">
-							<tr>
-				        <td class="inner contents">
-			            <p class="h2">Heading</p>
-			            <p>Class eleifend aptent taciti sociosqu ad litora torquent conubia</p>
-			            <p><a href="#">Read more</a></p>
-				        </td>
-					    </tr>
-						</table>
-		        <!--[if (gte mso 9)|(IE)]>
-		        </td><td width="200" valign="top">
-		        <![endif]-->
-		        <table class="column">
-							<tr>
-				        <td class="inner contents">
-			            <p class="h2">Heading</p>
-			            <p>Class eleifend aptent taciti sociosqu ad litora torquent conubia</p>
-			            <p><a href="#">Read more</a></p>
-				        </td>
-					    </tr>
-						</table>
-		        <!--[if (gte mso 9)|(IE)]>
-		        </td><td width="200" valign="top">
-		        <![endif]-->
-		        <table class="column">
-							<tr>
-				        <td class="inner contents">
-			            <p class="h2">Heading</p>
-			            <p>Class eleifend aptent taciti sociosqu ad litora torquent conubia</p>
-			            <p><a href="#">Read more</a></p>
-				        </td>
-					    </tr>
-						</table>
-		        <!--[if (gte mso 9)|(IE)]>
-		        </td>
-		        </tr>
-		        <tr>
-		        <td width="200" valign="top">
-		        <![endif]-->
-		        <table class="column">
-							<tr>
-				        <td class="inner contents">
-			            <p class="h2">Heading</p>
-			            <p>Class eleifend aptent taciti sociosqu ad litora torquent conubia</p>
-			            <p><a href="#">Read more</a></p>
-				        </td>
-					    </tr>
-						</table>
-		        <!--[if (gte mso 9)|(IE)]>
-		        </td><td width="200" valign="top">
-		        <![endif]-->
-		        <table class="column">
-							<tr>
-				        <td class="inner contents">
-			            <p class="h2">Heading</p>
-			            <p>Class eleifend aptent taciti sociosqu ad litora torquent conubia</p>
-			            <p><a href="#">Read more</a></p>
-				        </td>
-					    </tr>
-						</table>
-		        <!--[if (gte mso 9)|(IE)]>
-		        </td><td width="200" valign="top">
-		        <![endif]-->
-		        <table class="column">
-							<tr>
-				        <td class="inner contents">
-			            <p class="h2">Heading</p>
-			            <p>Class eleifend aptent taciti sociosqu ad litora torquent conubia</p>
-			            <p><a href="#">Read more</a></p>
-				        </td>
-					    </tr>
-						</table>
-		        <!--[if (gte mso 9)|(IE)]>
-		        </td>
-		        </tr>
-		        </table>
-		        <![endif]-->
-			    </td>
-				</tr>
-
-				<tr>
-					<td class="left-sidebar">
-		        <!--[if (gte mso 9)|(IE)]>
-		        <table width="100%">
-		        <tr>
-		        <td width="100">
-		        <![endif]-->
-		        <table class="column left">
-							<tr>
-				        <td class="inner">
-			            <img src="images/sidebar-01.jpg" width="80" alt="" />
-				        </td>
-					    </tr>
-						</table>
-		        <!--[if (gte mso 9)|(IE)]>
-		        </td><td width="500">
-		        <![endif]-->
-		        <table class="column right">
-							<tr>
-				        <td class="inner contents">
-			            Praesent laoreet malesuada cursus. Maecenas scelerisque congue eros eu posuere. Praesent in felis ut velit pretium lobortis rhoncus ut erat. <a href="#">Read&nbsp;on</a>
-				        </td>
-					    </tr>
-						</table>
-		        <!--[if (gte mso 9)|(IE)]>
-		        </td>
-		        </tr>
-		        </table>
-		        <![endif]-->
-			    </td>
-				</tr>
-
-				<tr>
-					<td class="right-sidebar" dir="rtl">
-		        <!--[if (gte mso 9)|(IE)]>
-		        <table width="100%" dir="rtl">
-		        <tr>
-		        <td width="100">
-		        <![endif]-->
-		        <table class="column left" dir="ltr">
-	            <tr>
-                <td class="inner contents">
-                  <img src="images/sidebar-02.jpg" width="80" alt="" />
-                </td>
-	            </tr>
-		        </table>
-		        <!--[if (gte mso 9)|(IE)]>
-		        </td><td width="500">
-		        <![endif]-->
-		        <table class="column right" dir="ltr">
-	            <tr>
-                <td class="inner contents">
-                  Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra. <a href="#">Per&nbsp;inceptos</a>
-                </td>
-	            </tr>
-		        </table>
-		        <!--[if (gte mso 9)|(IE)]>
-		        </td>
-		        </tr>
-		        </table>
-		        <![endif]-->
-			    </td>
-				</tr>
-
- <table bgcolor="#1E4177" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border-spacing: 0;" width="100%">
+            <div class="column" style="width:100%;max-width:300px;display:inline-block;vertical-align:top;" >
+              <table width="100%" style="border-spacing:0;font-family:sans-serif;color:#ccc;" >
                 <tr>
-                    <td>
-                        <table align="center" border="0" cellpadding="20" cellspacing="0" class="container" style="border-collapse: collapse; border-spacing: 0; margin: auto;" width="600">
-                            <tr>
-                                <td align="center" class="content" style="color: #FFFFFF; font-family: Arial, sans-serif; font-size: 12px; line-height: 1.5;">
-                                    <table border="0" cellpadding="0" cellspacing="0" style="border-bottom: 1px solid #0D1C33; border-collapse: separate; border-spacing: 0;Margin-top:10px;" width="100%">
-                                        <tr>
-                                            <td align="center" style="border-bottom: 1px solid #7C90AF; color: #FFFFFF; font-family: 'CabinCondensed-reg', Arial, sans-serif; font-size: 27px; line-height: 1; padding-bottom: 15px;">
-                                                Call us at: <!--[if mso]><span style="white-space: nowrap;">561-686-4006</span><![endif]--><a href="tel:561-686-4006" style="color: #FFFFFF; cursor: text; font-weight: normal; mso-hide: all; text-decoration: none; white-space: nowrap;">561-686-4006</a>
-                                            </td>
-                                        </tr>
-                                    </table>
-                                    <table border="0" cellpadding="20" cellspacing="0" style="border-collapse: collapse; border-spacing: 0; font-family: Arial, sans-serif; font-size: 12px; line-height: 1.5;">
-                                        <tr>
-                                            <td class="social-media" style="padding: 20px 0 40px;">
-                                                <a href="https://twitter.com/" title="Follow us on Twitter"><img alt="Follow us on Twitter" border="0" height="35" src="http://www.pbccu.coop/assets/images/logos/email-twitter.gif" width="35"></a>
-                                            </td>
-                                            <td class="mobile-hide" style="padding: 20px 0 40px 10px;">
-                                                <a href="https://twitter.com/" style="color: #FFFFFF; text-decoration: none;" title="Follow us on Twitter">Follow us on Twitter</a>
-                                            </td>
-                                            <td class="social-media" style="padding: 20px 0 40px 40px;">
-                                                <a href="https://www.facebook.com/" title="Like us on Facebook"><img alt="Like us on Facebook" border="0" height="35" src="http://www.pbccu.coop/assets/images/logos/email-facebook.gif" width="35"></a>
-                                            </td>
-                                            <td class="mobile-hide" style="padding: 20px 0 40px 10px;">
-                                                <a href="https://www.facebook.com/" style="color: #FFFFFF; text-decoration: none;" title="Like us on Facebook">Like us on Facebook</a>
-                                            </td>
-                                        </tr>
-                                    </table>
-<!--                                     <div>
-                                        <img alt="Federally insured by NCUA | Equal Housing Lender" height="65" src="http://www.pbccu.coop/assets/images/logos/email-ehl-ncua.gif" style="display: block;" width="220">
-                                    </div> -->
-                                    Temp by Temp<br>
-                                    &copy; 2011&ndash;2015 Temp. All rights reserved.
-                                </td>
-                            </tr>
-                        </table>
-                    </td>
+                  <td class="inner" style="padding-top:10px;padding-bottom:10px;padding-right:10px;padding-left:10px;" >
+                    <table class="contents" style="border-spacing:0;font-family:sans-serif;color:#ccc;width:100%;font-size:14px;text-align:left;" >
+                      <tr>
+                        <td style="padding-top:10px;padding-bottom:10px;padding-right:10px;padding-left:10px;" >
+                      <a href="https://info.roku.com/track?type=click&enid=ZWFzPTEmbXNpZD0xJmF1aWQ9Mjc1MTIxNzUmbWFpbGluZ2lkPTEzMDAwOSZtZXNzYWdlaWQ9MjI2ODkmZGF0YWJhc2VpZD02MTAzJnNlcmlhbD0xNjc4NjQxMyZlbWFpbGlkPXNvbmlhdjQ4QGdtYWlsLmNvbSZ1c2VyaWQ9MV8zODk3ODg1JnRhcmdldGlkPSZtbj00OTgzOTQ4JmZsPSZtdmlkPSZleHRyYT0mJiY=&&&29251079&&&https://adfarm.mediaplex.com/ad/ck/27866-208339-60129-1556" style="color:#eee;text-decoration:none;" >
+                          <img src="https://ci6.googleusercontent.com/proxy/xzhKlyA9fVyudHsByV1u3XMM2816jRkEuo1vLISfsZixJGdyh9N6Me5lCpoD_MJNKMBER9WkqXqIl_O__157CSOz-8kP0xwEztg-I-xKHl2CrjkumQ6TnpqiaQPSSUQbhg=s0-d-e1-ft#http://media.mail.roku.com/img/global/20150927_NLShowtime_pennydreadful.jpg" width="250" alt="" style="border-width:0;-ms-interpolation-mode:bicubic;width:100%;max-width:250px;height:auto;" /></a>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
                 </tr>
+              </table>
+            </div>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
             </table>
+            <![endif]-->
+            <div class="column" style="width:100%;max-width:300px;display:inline-block;vertical-align:top;" >
+              <table width="100%" style="border-spacing:0;font-family:sans-serif;color:#ccc;" >
+                <tr>
+                  <td class="inner" style="padding-top:10px;padding-bottom:10px;padding-right:10px;padding-left:10px;" >
+                    <table class="contents" style="border-spacing:0;font-family:sans-serif;color:#ccc;width:100%;font-size:14px;text-align:left;" >
+                      <tr>
+                        <td style="padding-top:10px;padding-bottom:10px;padding-right:10px;padding-left:10px;" >
+                      <a href="https://info.roku.com/track?type=click&enid=ZWFzPTEmbXNpZD0xJmF1aWQ9Mjc1MTIxNzUmbWFpbGluZ2lkPTEzMDAwOSZtZXNzYWdlaWQ9MjI2ODkmZGF0YWJhc2VpZD02MTAzJnNlcmlhbD0xNjc4NjQxMyZlbWFpbGlkPXNvbmlhdjQ4QGdtYWlsLmNvbSZ1c2VyaWQ9MV8zODk3ODg1JnRhcmdldGlkPSZtbj00OTgzOTQ4JmZsPSZtdmlkPSZleHRyYT0mJiY=&&&29251079&&&https://adfarm.mediaplex.com/ad/ck/27866-208339-60129-1556" style="color:#eee;text-decoration:none;" >
+                          <img src="https://ci3.googleusercontent.com/proxy/NiRbwiAuFG1NaLPnohDGERQKcB86AMTZnx1qfFa8IvgMmsvz-VEhtzsZayb1fgf9g9TdY81To7xhBBllLvHk4168qmjU7K9aJfeotCCh7YmBTW4sORcyg2pH=s0-d-e1-ft#http://media.mail.roku.com/img/global/20150927_NLShowtime_Dexter.jpg" width="250" alt="" style="border-width:0;-ms-interpolation-mode:bicubic;width:100%;max-width:250px;height:auto;" /></a>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+            <div class="column" style="width:100%;max-width:300px;display:inline-block;vertical-align:top;" >
+              <table width="100%" style="border-spacing:0;font-family:sans-serif;color:#ccc;" >
+                <tr>
+                  <td class="inner" style="padding-top:10px;padding-bottom:10px;padding-right:10px;padding-left:10px;" >
+                    <table class="contents" style="border-spacing:0;font-family:sans-serif;color:#ccc;width:100%;font-size:14px;text-align:left;" >
+                      <tr>
+                        <td style="padding-top:10px;padding-bottom:10px;padding-right:10px;padding-left:10px;" >
+                      <a href="https://info.roku.com/track?type=click&enid=ZWFzPTEmbXNpZD0xJmF1aWQ9Mjc1MTIxNzUmbWFpbGluZ2lkPTEzMDAwOSZtZXNzYWdlaWQ9MjI2ODkmZGF0YWJhc2VpZD02MTAzJnNlcmlhbD0xNjc4NjQxMyZlbWFpbGlkPXNvbmlhdjQ4QGdtYWlsLmNvbSZ1c2VyaWQ9MV8zODk3ODg1JnRhcmdldGlkPSZtbj00OTgzOTQ4JmZsPSZtdmlkPSZleHRyYT0mJiY=&&&29251079&&&https://adfarm.mediaplex.com/ad/ck/27866-208339-60129-1556" style="color:#eee;text-decoration:none;" >
+                          <img src="https://ci5.googleusercontent.com/proxy/0kAkUHBxembqTrP-7QSxHPj-uGIMdTncZmhsX451mSJg5W-49HdU8I2PRnnNoM6I9zSxqnkcGefWaV6p3u1BryjGaJ45zFHQ_BdvJqQwzLSzQXSX-q6znUu8rxWuaxU6EQ=s0-d-e1-ft#http://media.mail.roku.com/img/global/20151228_Showtime_feat3_boxing_v2.jpg" width="250" alt="" style="border-width:0;-ms-interpolation-mode:bicubic;width:100%;max-width:250px;height:auto;" /></a>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+            <div class="column" style="width:100%;max-width:300px;display:inline-block;vertical-align:top;" >
+              <table width="100%" style="border-spacing:0;font-family:sans-serif;color:#ccc;" >
+                <tr>
+                  <td class="inner" style="padding-top:10px;padding-bottom:10px;padding-right:10px;padding-left:10px;" >
+                    <table class="contents" style="border-spacing:0;font-family:sans-serif;color:#ccc;width:100%;font-size:14px;text-align:left;" >
+                      <tr>
+                        <td style="padding-top:10px;padding-bottom:10px;padding-right:10px;padding-left:10px;" >
+                      <a href="https://info.roku.com/track?type=click&enid=ZWFzPTEmbXNpZD0xJmF1aWQ9Mjc1MTIxNzUmbWFpbGluZ2lkPTEzMDAwOSZtZXNzYWdlaWQ9MjI2ODkmZGF0YWJhc2VpZD02MTAzJnNlcmlhbD0xNjc4NjQxMyZlbWFpbGlkPXNvbmlhdjQ4QGdtYWlsLmNvbSZ1c2VyaWQ9MV8zODk3ODg1JnRhcmdldGlkPSZtbj00OTgzOTQ4JmZsPSZtdmlkPSZleHRyYT0mJiY=&&&29251079&&&https://adfarm.mediaplex.com/ad/ck/27866-208339-60129-1556" style="color:#eee;text-decoration:none;" >
+                          <img src="https://ci5.googleusercontent.com/proxy/U9_WeXlRnEAqboy3EMdI2qKs-7NZrmHp_-thcGW4oCPGCvDZZh0Ef5tKdH8f74AkT0gllg0_YoPdItbxPfJq8mRF3lN24a9et1Tx-CHApXV7Eav4pe74MJd4ovHdmV8=s0-d-e1-ft#http://media.mail.roku.com/img/global/20150927_NLShowtime_nursejackie.jpg" width="250" alt="" style="border-width:0;-ms-interpolation-mode:bicubic;width:100%;max-width:250px;height:auto;" /></a>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+            <div class="column" style="width:100%;max-width:300px;display:inline-block;vertical-align:top;" >
+              <table width="100%" style="border-spacing:0;font-family:sans-serif;color:#ccc;" >
+                <tr>
+                  <td class="inner" style="padding-top:10px;padding-bottom:10px;padding-right:10px;padding-left:10px;" >
+                    <table class="contents" style="border-spacing:0;font-family:sans-serif;color:#ccc;width:100%;font-size:14px;text-align:left;" >
+                      <tr>
+                        <td style="padding-top:10px;padding-bottom:10px;padding-right:10px;padding-left:10px;" >
+                      <a href="https://info.roku.com/track?type=click&enid=ZWFzPTEmbXNpZD0xJmF1aWQ9Mjc1MTIxNzUmbWFpbGluZ2lkPTEzMDAwOSZtZXNzYWdlaWQ9MjI2ODkmZGF0YWJhc2VpZD02MTAzJnNlcmlhbD0xNjc4NjQxMyZlbWFpbGlkPXNvbmlhdjQ4QGdtYWlsLmNvbSZ1c2VyaWQ9MV8zODk3ODg1JnRhcmdldGlkPSZtbj00OTgzOTQ4JmZsPSZtdmlkPSZleHRyYT0mJiY=&&&29251079&&&https://adfarm.mediaplex.com/ad/ck/27866-208339-60129-1556" style="color:#eee;text-decoration:none;" >
+                          <img src="https://ci6.googleusercontent.com/proxy/azl9v3cyqEhPRfCxXAit1lrZ1EMMRez5VSZ27wrmzINCJPqCGjLkZu5kJn572J0XPKs5H41uc2AbtmpR20P0NpabwbAXDWPSIRkbkNgniYta2XOvss8E=s0-d-e1-ft#http://media.mail.roku.com/img/global/20150927_NLShowtime_HOL.jpg" width="250" alt="" style="border-width:0;-ms-interpolation-mode:bicubic;width:100%;max-width:250px;height:auto;" /></a>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+            <div class="column" style="width:100%;max-width:300px;display:inline-block;vertical-align:top;" >
+              <table width="100%" style="border-spacing:0;font-family:sans-serif;color:#ccc;" >
+                <tr>
+                  <td class="inner" style="padding-top:10px;padding-bottom:10px;padding-right:10px;padding-left:10px;" >
+                    <table class="contents" style="border-spacing:0;font-family:sans-serif;color:#ccc;width:100%;font-size:14px;text-align:left;" >
+                      <tr>
+                        <td style="padding-top:10px;padding-bottom:10px;padding-right:10px;padding-left:10px;" >
+                      <a href="https://info.roku.com/track?type=click&enid=ZWFzPTEmbXNpZD0xJmF1aWQ9Mjc1MTIxNzUmbWFpbGluZ2lkPTEzMDAwOSZtZXNzYWdlaWQ9MjI2ODkmZGF0YWJhc2VpZD02MTAzJnNlcmlhbD0xNjc4NjQxMyZlbWFpbGlkPXNvbmlhdjQ4QGdtYWlsLmNvbSZ1c2VyaWQ9MV8zODk3ODg1JnRhcmdldGlkPSZtbj00OTgzOTQ4JmZsPSZtdmlkPSZleHRyYT0mJiY=&&&29251079&&&https://adfarm.mediaplex.com/ad/ck/27866-208339-60129-1556" style="color:#eee;text-decoration:none;" >
+                          <img src="https://ci6.googleusercontent.com/proxy/tkThBr5Sb6NAOGu0-c8veVxILqykdfq2GsY6J9zuZg18v3pEGvwaXFFvHUPGcbsX98gO9i5MvoOPKuSegiNyetLkm1YiMI8xGvd6I5k1w3FppMaG0dL1quQH-gafaBLjjQ=s0-d-e1-ft#http://media.mail.roku.com/img/global/20151228_showtime_feature3_wds_v2.jpg" width="250" alt="" style="border-width:0;-ms-interpolation-mode:bicubic;width:100%;max-width:250px;height:auto;" /></a>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+			    </td>
+				</tr>
+            <tr>
+              <td class="text" style="padding-bottom:30px;padding-right:30px;padding-left:30px;padding-top:30px;text-align:left;color:#666;font-size:10px;line-height:15px;" >
+                * You will not be charged for the SHOWTIME streaming service during the free trial period (the first 30 days of your monthly subscription). TO CANCEL YOUR SUBSCRIPTION AND AVOID BEING CHARGED, YOU MUST CANCEL BEFORE THE END OF THE FREE TRIAL PERIOD. To keep your subscription once your trial period is over, you will not have to do anything. SHOWTIME and related marks are registered trademarks of Showtime Networks Inc., a CBS company. SHOWTIME is accessible for viewing solely in the United States and its territories and possessions. Minimum high-speed broadband connection is required for viewing. Ray Donovan, The Affair, Penny Dreadful, House of Lies and Dexter © Showtime Networks Inc. All rights reserved. Homeland © Twentieth Century Fox Film Corporation. All rights reserved. Shameless © Warner Bros. Entertainment Inc. All rights reserved. Masters of Sex © Sony Pictures Television Inc. and Showtime Networks Inc. All rights reserved. Weeds © Lions Gate Television Inc. All rights reserved. Nurse Jackie © Showtime Networks Inc. and Lions Gate Television Inc. All rights reserved.
+              </td>
+            </tr>
 
-			</table>
-			<!--[if (gte mso 9)|(IE)]>
-			</td>
-			</tr>
-			</table>
-			<![endif]-->
+				<tr>
+					<td class="three-column" style="padding-right:20px;padding-left:20px;text-align:center;font-size:0;padding-top:10px;padding-bottom:10px;background:#eee;" >
+		        <!--[if (gte mso 9)|(IE)]>
+		        <table width="100%" style="border-spacing:0;font-family:sans-serif;color:#ccc;" >
+		        <tr>
+		        <td width="200" valign="top" style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" >
+		        <![endif]-->
+		        <table class="column" style="border-spacing:0;font-family:sans-serif;color:#ccc;width:100%;max-width:130px;display:inline-block;vertical-align:top;" >
+					    <tr>
+				        <td class="inner" style="padding-top:10px;padding-bottom:10px;padding-right:10px;padding-left:10px;" >
+			            <table class="contents" style="border-spacing:0;font-family:sans-serif;color:#666;width:100%;font-size:14px;text-align:left;" >
+		                <tr>
+	                    <td class="text" style="padding-bottom:0;padding-right:0;padding-left:0;padding-top:10px;" >
+                        <p style="font-size:16px;Margin-bottom:10px;color:#66318f;">Channels</p>
+                        <p style="font-size:12px;Margin-bottom:10px;text-align:left;">Movies + TV</p>
+                        <p style="font-size:12px;Margin-bottom:10px;valign:left;">Featured</p>
+                        <p style="font-size:12px;Margin-bottom:10px;valign:left;">New</p>
+	                    </td>
+		                </tr>
+			            </table>
+				        </td>
+					    </tr>
+						</table>
+		        <!--[if (gte mso 9)|(IE)]>
+		        </td><td width="200" valign="top" style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" >
+		        <![endif]-->
+            <table class="column" style="border-spacing:0;font-family:sans-serif;color:#ccc;width:100%;max-width:130px;display:inline-block;vertical-align:top;" >
+              <tr>
+                <td class="inner" style="padding-top:10px;padding-bottom:10px;padding-right:10px;padding-left:10px;" >
+                  <table class="contents" style="border-spacing:0;font-family:sans-serif;color:#666;width:100%;font-size:14px;text-align:left;" >
+                    <tr>
+                      <td class="text" style="padding-bottom:0;padding-right:0;padding-left:0;padding-top:10px;" >
+                        <p style="font-size:16px;Margin-bottom:10px;color:#66318f;">Special offers</p>
+                        <p style="font-size:12px;Margin-bottom:10px;text-align:left;">Clearance</p>
+                        <p style="font-size:12px;Margin-bottom:10px;valign:left;">Channel offers</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="text" style="padding-bottom:0;padding-right:0;padding-left:0;padding-top:10px;" >
+                        <p style="font-size:16px;Margin-bottom:10px;color:#66318f;">Shop</p>
+                        <p style="font-size:12px;Margin-bottom:10px;text-align:left;">Accessories</p>
+                        <p style="font-size:12px;Margin-bottom:10px;valign:left;">Roku TV</p>
+                        <p style="font-size:12px;Margin-bottom:10px;valign:left;">Roku Player</p>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+            </td><td width="200" valign="top" style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" >
+            <![endif]-->
+            <table class="column" style="border-spacing:0;font-family:sans-serif;color:#ccc;width:100%;max-width:130px;display:inline-block;vertical-align:top;" >
+              <tr>
+                <td class="inner" style="padding-top:10px;padding-bottom:10px;padding-right:10px;padding-left:10px;" >
+                  <table class="contents" style="border-spacing:0;font-family:sans-serif;color:#666;width:100%;font-size:14px;text-align:left;" >
+                    <tr>
+                      <td class="text" style="padding-bottom:0;padding-right:0;padding-left:0;padding-top:10px;" >
+                        <p style="font-size:16px;Margin-bottom:10px;color:#66318f;">Free Roku App</p>
+                        <p style="font-size:12px;Margin-bottom:10px;text-align:left;">iOS</p>
+                        <p style="font-size:12px;Margin-bottom:10px;valign:left;">Android</p>
+                        <p style="font-size:12px;Margin-bottom:10px;valign:left;">Windows Phone</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="text" style="padding-bottom:0;padding-right:0;padding-left:0;padding-top:10px;" >
+                        <p style="font-size:16px;Margin-bottom:10px;color:#66318f;">Connect with us</p>
+                        <p style="font-size:12px;Margin-bottom:10px;text-align:left;">Customer Support</p>
+                        <p style="font-size:12px;Margin-bottom:10px;valign:left;">Android</p>
+                        <p style="font-size:12px;Margin-bottom:10px;valign:left;">Windows Phone</p>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+            </td><td width="200" valign="top" style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" >
+            <![endif]-->
+            <table class="column" style="border-spacing:0;font-family:sans-serif;color:#ccc;width:100%;max-width:160px;display:inline-block;vertical-align:top;" >
+              <tr>
+                <td class="inner" style="padding-top:10px;padding-bottom:10px;padding-right:10px;padding-left:10px;" >
+                  <table class="contents" style="border-spacing:0;font-family:sans-serif;color:#666;width:100%;font-size:14px;text-align:left;" >
+                    <tr>
+                      <td class="text" style="padding-bottom:0;padding-right:0;padding-left:0;padding-top:10px;" >
+                        <img src="https://ci3.googleusercontent.com/proxy/TPlmX4Rr0Dyh27rU97hmGLIxZOPagWnJSShgC6KKDCN9ufRNi-jNaS9yDD3QoZbvt1nH1WQmSYNO8D9CXihnrY_2qh10hwD3JtxfzuBZ_6kCReYM-JD6PDg=s0-d-e1-ft#http://media.mail.roku.com/img/global/20150701_roku_thisistv_v3.jpg">
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+            </td><td width="200" valign="top" style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" >
+            <![endif]-->
+			    </td>
+				</tr>
+
+				<tr>
+					<td class="left-sidebar" style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;text-align:center;font-size:0;background:rgba(0,0,0,.1);" >
+		        <!--[if (gte mso 9)|(IE)]>
+		        <table width="100%" style="border-spacing:0;font-family:sans-serif;color:#ccc;" >
+		        <tr>
+		        <td width="100" style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" >
+		        <![endif]-->
+		        <table class="column left" style="border-spacing:0;font-family:sans-serif;color:#ccc;width:100%;display:inline-block;vertical-align:middle;max-width:90px;" >
+							<tr>
+				        <td class="inner" style="padding-top:10px;padding-bottom:10px;padding-right:10px;padding-left:10px;" >
+			            <img src="https://ci3.googleusercontent.com/proxy/PZTTfGA0Ml2Q0gsbaWPamEJ5EnCCcegrmt2saj_hmCFn4u3dno1ADtX2zCnqdhIXyHI1rTVUZpqnthv9D95F66oQ2T-rKdOsdPzGOi-GcqXUCWg=s0-d-e1-ft#http://media.mail.roku.com/img/global/20150701_legal_left.jpg" width="80" alt="" style="border-width:0;-ms-interpolation-mode:bicubic;" />
+				        </td>
+					    </tr>
+						</table>
+		        <!--[if (gte mso 9)|(IE)]>
+		        </td><td width="500" style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" >
+		        <![endif]-->
+		        <table class="column right" style="border-spacing:0;font-family:sans-serif;color:#ccc;width:100%;display:inline-block;vertical-align:middle;max-width:500px;" >
+							<tr>
+				        <td class="inner contents" style="padding-top:30px;padding-bottom:20px;padding-right:10px;padding-left:10px;width:100%;font-size:14px;text-align:left;" >
+                  <p style="font-size:10px;color:#666;padding-bottom:10px;padding-left:0;padding-right:0px;padding-top:0;">
+			            © 2015 Roku, Inc. All rights reserved. ROKU, the ROKU Logo, the ROKU fabric tag, ROKU TV, and "NOW THIS IS TV" are trademarks and/or registered trademarks of Roku, Inc. All other trademarks and logos herein are the property of their respective owner.Privacy Policy</p>
+                  <p style="font-size:10px;color:#666;padding-bottom:10px;padding-left:0;padding-right:0px;padding-top:0;">
+                  Roku, 12980 Saratoga Avenue, Saratoga, CA 95070, United States
+                  </p>
+                  <p style="font-size:10px;color:#666;padding-bottom:10px;padding-left:0;padding-right:0px;padding-top:0;">
+                  This email was sent to soniav48@gmail.com by Roku
+                  Click here to manage the email you receive or Unsubscribe.
+                  </p>
+				        </td>
+					    </tr>
+						</table>
+		        <!--[if (gte mso 9)|(IE)]>
+		        </td>
+		        </tr>
+		        </table>
+		        <![endif]-->
+			    </td>
+				</tr>
 
     </div>
   </center>

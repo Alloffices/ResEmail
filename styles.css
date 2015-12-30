@@ -3,12 +3,12 @@ body {
     Margin: 0;
     padding: 0;
     min-width: 100%;
-    background-color: #ffffff;
+    background-color: #292929;
 }
 table {
     border-spacing: 0;
     font-family: sans-serif;
-    color: #333333;
+    color: #ccc;
 }
 td {
     padding: 0;
@@ -60,7 +60,7 @@ p {
     Margin: 0;
 }
 a {
-    color: #ee6a56;
+    color: #eee;
     text-decoration: none;
 }
 .h1 {
@@ -198,7 +198,7 @@ a {
 }
 
 /*Media Queries*/
-/*@media screen and (max-width: 400px) {
+@media screen and (max-width: 400px) {
 .two-column .column,
     .three-column .column {
         max-width: 100% !important;
@@ -218,7 +218,7 @@ a {
     .two-column .column {
         max-width: 50% !important;
     }
-}*/
+}
 
 /* ‘Hamburger’ Collapsible Navigation Header */
 
@@ -336,7 +336,7 @@ font-weight: bold;
 
 *[id]#menu-wrapper
 {
-    background-color: #004677;
+    background-color: #292929;
 
     max-height: 0;
 
@@ -356,14 +356,14 @@ font-weight: bold;
 
 *[class].menu + .menu
 {
-    border-top: 1px solid #7C90AF;
+
 }
 
 *[class].menu-item
 {
     color: #FFFFFF !important;
     display: block;
-
+    border-bottom: 1px solid #666;
     padding: 12px;
     text-align: center;
 }
